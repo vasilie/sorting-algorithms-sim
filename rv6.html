@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boss RV-6 Reverb Pedal Simulation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2c2c2c;
+      color: #f0f0f0;
+      padding: 40px;
+    }
+    .control-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    select, input[type="range"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #444;
+      color: #f0f0f0;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    #reverbControls {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Boss RV-6 Reverb Pedal Simulation</h1>
+  
+  <div class="control-group">
+    <label for="audioFile">Upload Audio File:</label>
+    <input type="file" id="audioFile" accept="audio/*">
+  </div>
+  
+  <div class="control-group">
+    <label for="reverbMode">Reverb Mode:</label>
+    <select id="reverbMode">
+      <option value="none">None</option>
+      <option value="room">Room</option>
+      <option value="hall">Hall</option>
+      <option value="spring">Spring</option>
+      <option value="shimmer">Shimmer</option>
+      <option value="dynamic">Dynamic</option>
+      <option value="reebop">Reebop</option>
+    </select>
+  </div>
+  
+  <div id="reverbControls">
+    <div class="control-group">
+      <label for="decay">Decay Time (s): <span id="decayValue">2.0</span></label>
+      <input type="range" id="decay" min="0.1" max="10" step="0.1" value="2.0">
+    </div>
+    
+    <div class="control-group">
+      <label for="mix">Mix Level (%): <span id="mixValue">50</span></label>
+      <input type="range" id="mix" min="0" max="100" step="1" value="50">
+    </div>
+  </div>
+  
+  <button id="playButton">Play / Pause</button>
+
+  <script src="rv6.js"></script>
+</body>
+</html>
