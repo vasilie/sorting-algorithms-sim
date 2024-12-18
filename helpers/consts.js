@@ -1,0 +1,2 @@
+export const STATE_PAUSED = "STATE_PAUSED";
+export const STATE_PLAYING = "STATE_PLAYING";

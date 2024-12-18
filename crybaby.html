@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Electro-Harmonix Cry Baby Wah Pedal Simulation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2c2c2c;
+      color: #f0f0f0;
+      padding: 40px;
+    }
+    .control-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="range"], select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #444;
+      color: #f0f0f0;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    #controls {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .slider-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .slider-label span {
+      width: 50px;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <h1>Electro-Harmonix Cry Baby Wah Pedal Simulation</h1>
+  
+  <div id="controls">
+    <div class="control-group">
+      <label for="audioFile">Upload Guitar Audio File:</label>
+      <input type="file" id="audioFile" accept="audio/*">
+    </div>
+    
+    <div class="control-group">
+      <label for="sweep">Sweep Range (Hz):</label>
+      <div class="slider-label">
+        <span>500</span>
+        <input type="range" id="sweep" min="500" max="5000" step="100" value="2000">
+        <span>5000</span>
+      </div>
+      <span id="sweepValue">2000 Hz</span>
+    </div>
+    
+    <div class="control-group">
+      <label for="intensity">Intensity:</label>
+      <div class="slider-label">
+        <span>Low</span>
+        <input type="range" id="intensity" min="0" max="10" step="0.1" value="5">
+        <span>High</span>
+      </div>
+      <span id="intensityValue">5</span>
+    </div>
+    
+    <div class="control-group">
+      <label for="mix">Mix Level (%):</label>
+      <div class="slider-label">
+        <span>Dry</span>
+        <input type="range" id="mix" min="0" max="100" step="1" value="50">
+        <span>Wet</span>
+      </div>
+      <span id="mixValue">50%</span>
+    </div>
+    
+    <button id="playButton">Play / Pause</button>
+  </div>
+
+  <script src="crybaby.js"></script>
+</body>
+</html>

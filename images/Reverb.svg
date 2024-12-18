@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 286" width="196" height="286">
+	<title>Reverb</title>
+	<style>
+		.s0 { fill: #414141;stroke: #000000;stroke-miterlimit:10 } 
+		.s1 { fill: #393b46 } 
+		.s2 { fill: #918b86 } 
+		.s3 { fill: #ff3d2e } 
+	</style>
+	<g id="Layer 1">
+		<path id="Облик 1 copy 3" fill-rule="evenodd" class="s0" d="m195.5 0v286h-195.5v-286z"/>
+		<path id="Облик 2 copy 3" fill-rule="evenodd" class="s1" d="m186 167v108.6h-176v-108.6z"/>
+		<path id="Облик 2 copy 4" fill-rule="evenodd" class="s2" d="m185 9v83h-176v-83z"/>
+		<path id="Облик 3 copy 2" fill-rule="evenodd" class="s3" d="m96 34c-2.8 0-5-2.2-5-5 0-2.8 2.2-5 5-5 2.8 0 5 2.2 5 5 0 2.8-2.2 5-5 5z"/>
+	</g>
+</svg>

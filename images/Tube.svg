@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 286" width="180" height="286">
+	<title>Tube</title>
+	<style>
+		.s0 { fill: #46bb50;stroke: #000000;stroke-miterlimit:10 } 
+		.s1 { fill: #242624;stroke: #000000;stroke-miterlimit:10 } 
+		.s2 { fill: #dcd7cb } 
+		.s3 { fill: #e2e4e1 } 
+		.s4 { fill: #ff3d2e } 
+	</style>
+	<g id="Layer 1">
+		<path id="Облик 1 copy" fill-rule="evenodd" class="s0" d="m179.5 0v286h-179.5v-286z"/>
+		<path id="Облик 1 copy 2" fill-rule="evenodd" class="s1" d="m165.8 91v183.2h-150.8v-183.2z"/>
+		<path id="Облик 2 copy" fill-rule="evenodd" class="s2" d="m156 170.5v92.5h-132.8v-92.5z"/>
+		<path id="Облик 2 copy 2" fill-rule="evenodd" class="s3" d="m156 103.8v76.7h-133v-76.7z"/>
+		<path id="Облик 3 copy" fill-rule="evenodd" class="s4" d="m88.1 34c-2.5 0-4.5-2.2-4.5-5 0-2.8 2-5 4.5-5 2.6 0 4.6 2.2 4.6 5 0 2.8-2 5-4.6 5z"/>
+	</g>
+</svg>

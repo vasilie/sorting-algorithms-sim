@@ -1,0 +1,28 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 664" width="800" height="324">
+	<title>Нови пројекат</title>
+	<style>
+		.s0 { fill: #e68133;stroke: #000000;stroke-miterlimit:10 } 
+		.s1 { fill: #393b46 } 
+		.s2 { fill: #ff3d2e } 
+		.s3 { fill: #414141;stroke: #000000;stroke-miterlimit:10 } 
+		.s4 { fill: #918b86 } 
+		.s5 { fill: #46bb50;stroke: #000000;stroke-miterlimit:10 } 
+		.s6 { fill: #242624;stroke: #000000;stroke-miterlimit:10 } 
+		.s7 { fill: #dcd7cb } 
+		.s8 { fill: #e2e4e1 } 
+	</style>
+	<g id="Layer 1">
+		<path id="Облик 1" fill-rule="evenodd" class="s0" d="m227.5 30v286h-195.5v-286z"/>
+		<path id="Облик 2" fill-rule="evenodd" class="s1" d="m218 197v108.6h-176v-108.6z"/>
+		<path id="Облик 3" fill-rule="evenodd" class="s2" d="m128 64c-2.8 0-5-2.2-5-5 0-2.8 2.2-5 5-5 2.8 0 5 2.2 5 5 0 2.8-2.2 5-5 5z"/>
+		<path id="Облик 1 copy 3" fill-rule="evenodd" class="s3" d="m660.5 31v286h-195.5v-286z"/>
+		<path id="Облик 2 copy 3" fill-rule="evenodd" class="s1" d="m651 198v108.6h-176v-108.6z"/>
+		<path id="Облик 2 copy 4" fill-rule="evenodd" class="s4" d="m650 40v83h-176v-83z"/>
+		<path id="Облик 3 copy 2" fill-rule="evenodd" class="s2" d="m561 65c-2.8 0-5-2.2-5-5 0-2.8 2.2-5 5-5 2.8 0 5 2.2 5 5 0 2.8-2.2 5-5 5z"/>
+		<path id="Облик 1 copy" fill-rule="evenodd" class="s5" d="m440.5 31v286h-179.5v-286z"/>
+		<path id="Облик 1 copy 2" fill-rule="evenodd" class="s6" d="m426.8 122v183.2h-150.8v-183.2z"/>
+		<path id="Облик 2 copy" fill-rule="evenodd" class="s7" d="m417 201.5v92.5h-132.8v-92.5z"/>
+		<path id="Облик 2 copy 2" fill-rule="evenodd" class="s8" d="m417 134.8v76.7h-133v-76.7z"/>
+		<path id="Облик 3 copy" fill-rule="evenodd" class="s2" d="m349.1 65c-2.5 0-4.5-2.2-4.5-5 0-2.8 2-5 4.5-5 2.6 0 4.6 2.2 4.6 5 0 2.8-2 5-4.6 5z"/>
+	</g>
+</svg>
